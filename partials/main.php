@@ -4,6 +4,13 @@ include __DIR__ . "/../film.php";
 
 $primo_film = new Film( "Le Ali della Libertà", 1994, "Drammatico", 142 );
 
+$arrayFilms = [
+    new Film( "Le Ali della Libertà", 1994, "Drammatico", 142 ),
+    new Film( "Patch Adams", 1998, "Drammatico", 115 ),
+    new Film( "Il Ciclone", 1996, "Commedia", 91 ),
+    new Film( "Jumanji", 1994, "Avventura", 95 )
+]
+
 ?>
 
 <main class=""container>
