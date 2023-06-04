@@ -1,6 +1,6 @@
 <?php
 
-include __DIR__ . "/../film.php";
+include_once __DIR__ . "/../film.php";
 
 $primo_film = new Film( "Le Ali della Libertà", 1994, "Drammatico", 142 );
 
@@ -13,7 +13,7 @@ $arrayFilms = [
 
 ?>
 
-<main class=""container>
+<main class="container">
     <div class="card" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-title"><?php echo $primo_film->titolo ?></h5>
